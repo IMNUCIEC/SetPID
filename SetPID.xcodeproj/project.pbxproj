@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B095F311F892D52007E0F95 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B095F301F892D52007E0F95 /* Result.swift */; };
 		ABE5DB771F88F6B20086D585 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE5DB761F88F6B20086D585 /* AppDelegate.swift */; };
 		ABE5DB791F88F6B20086D585 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE5DB781F88F6B20086D585 /* ViewController.swift */; };
 		ABE5DB7C1F88F6B20086D585 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABE5DB7A1F88F6B20086D585 /* Main.storyboard */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6B095F301F892D52007E0F95 /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = SOURCE_ROOT; };
 		ABE5DB731F88F6B20086D585 /* SetPID.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SetPID.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABE5DB761F88F6B20086D585 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ABE5DB781F88F6B20086D585 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				ABE5DB761F88F6B20086D585 /* AppDelegate.swift */,
 				ABE5DB781F88F6B20086D585 /* ViewController.swift */,
 				ABE5DB7A1F88F6B20086D585 /* Main.storyboard */,
+				6B095F301F892D52007E0F95 /* Result.swift */,
 				ABE5DBA61F88FB0B0086D585 /* Socket.swift */,
 				ABE5DBAA1F88FB0C0086D585 /* SwiftSocket.h */,
 				ABE5DBA91F88FB0B0086D585 /* TCPClient.swift */,
@@ -285,6 +288,7 @@
 				ABE5DB791F88F6B20086D585 /* ViewController.swift in Sources */,
 				ABE5DB771F88F6B20086D585 /* AppDelegate.swift in Sources */,
 				ABE5DBAE1F88FB0C0086D585 /* ytcpsocket.c in Sources */,
+				6B095F311F892D52007E0F95 /* Result.swift in Sources */,
 				ABE5DBAB1F88FB0C0086D585 /* yudpsocket.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

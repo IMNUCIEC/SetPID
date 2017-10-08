@@ -37,13 +37,13 @@
 #include <netinet/in.h>
 #include <sys/socket.h>
 #include <sys/stat.h>
+#include <sys/time.h>
 #include <dirent.h>
 #include <netdb.h>
 #include <unistd.h>
 #include <fcntl.h>
 #include <signal.h>
 #include <sys/select.h>
-#include <sys/time.h>
 
 void ytcpsocket_set_block(int socket, int on) {
     int flags;
@@ -122,13 +122,12 @@ int ytcpsocket_pull(int socketfd, char *data, int len, int timeout_sec) {
     // use loop to make sure receive all data
     do {
         readlen = (int)read(socketfd, data + datalen, len - datalen);
-        printf("%d\n",readlen);
         if (readlen > 0) {
             datalen += readlen;
         }
     } while (readlen > 0);
     
-    return readlen;
+    return datalen;
 }
 
 int ytcpsocket_send(int socketfd, const char *data, int len){
